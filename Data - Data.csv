@@ -1,0 +1,120 @@
+Unit,Text,Coder1,Coder2,
+1,"Master: (to the servant) I told you to feed the chicken's chick. Why are you feeding the cat?  
+Servant: Sir, the chicken's chick is inside the cat's stomach.","Lexical Choice, Flow, Literality Loses Humor","Lexical Choice, Flow",qwen3:8b
+2,"Customer: Why are you selling the radio at half price? It's completely new. It's not second-hand.  
+Seller: I'm deaf in one ear.",Literality Loses Humor,Literality Loses Humor,qwen3:8b
+3,"Sardar found a 100 rupee note in the street. He picked it up. It read: ""Eid Mubarak!"" Sardar looked around and, putting the note in his pocket, said, ""You're welcome!""","Lexical Choice, Lack of Cultural Context","Lexical Choice, Lack of Cultural Context",qwen3:8b
+4,"A man was stopped by police in America. He couldn't speak English, so he read a ""leaving application"" and the police thought he was crazy, so they let him go. His wife was happy. He said, ""It's nothing, I haven't even heard a thirsty crow.""","Inaccuracy, Flow, Lack of Cultural Context, Incoherency","Inaccuracy, Lack of Cultural Context, Incoherency",qwen3:8b
+5,"Doctor: How is your health now?  
+Patient: Sir, the fever has broken, but the back pain remains.  
+Doctor: Inshallah, that will also break.","Lack of Cultural Context, Literality Loses Humor, Lexical Choice, Flow","Lack of Cultural Context, Literality Loses Humor, Lexical Choice, Flow",qwen3:8b
+6,"A man goes to watch a football match. He asks the person sitting next to him, ""Why are they kicking the ball?"" The other person replies, ""To score a goal."" The man says, ""But the ball is already in the goal.""",Literality Loses Humor,Literality Loses Humor,qwen3:8b
+7,"Boss: (to servant) I told you to feed the rice to the chicken's chick. Why are you feeding it to the cat?
+Servant: Oh master, the chicken's chick is in the cat's belly!","Lexical Choice, Structural Addition, Flow [Positive]","Lexical Choice, Structural Addition",llama3.1:latest
+9,"Customer: You're selling the radio at half price. This is brand new, not second-hand.
+Shopkeeper: I'm a one-ear dealer.",Inaccuracy,"Structural Addition, Inaccuracy",llama3.1:latest
+10," Colonel found a Rs 100 note in the street. He picked it up, and on top of it was written 'Mubarak Eid!' The Colonel looked around, put the note in his pocket and said, 'It looks like someone's celebrating without us.'","Inaccuracy, Lack of Cultural Context, Flow","Inaccuracy, Lack of Cultural Context",llama3.1:latest
+11,"A man was stopped by the police in America. Since he didn't speak English, they made him listen to the iPhone app. The cops left him thinking he's crazy. His wife was very happy about it. The man said: ""This isn't even the best part – I still haven't recited Pi Sa Ka.""","Incoherency, Inaccuracy, Lack of Cultural Context","Incoherency, Inaccuracy, Lack of Cultural Context",llama3.1:latest
+12,"Doctor: How's your health now? 
+Patient: Sir, the fever has broken, but I still have a backache.
+Doctor: Allah willing, that will break too.","Lexical Choice, Flow, Literality Loses Humor","Lexical Choice, Flow, Literality Loses Humor",llama3.1:latest
+13,"A man went to watch football. He asked the person sitting next to him, ""Why are they all kicking a ball that's already a goal?"" The other person replied, ""To score."" The first man said, ""But it's already scored!""",Literality Loses Humor,Literality Loses Humor,llama3.1:latest
+14," Master: (To the servant) I told you to cook the chicken for the cat. Why are you feeding it something else?
+Servant: Sir, the baby chicken is in the stomach of the cat.","Lexical Choice, Literality Loses Humor, Inaccuracy","Inaccuracy, Lexical Choice, Literality Loses Humor",deepseek-r1:latest
+15,"Customer: ""Why are you selling this radio for only half the price?""
+Shopkeeper: ""Because I'm deaf in one ear. It's only good for half the price!""","Structural Addition, Flow [Positive]","Structural Addition, Flow [Positive]",deepseek-r1:latest
+16," The landlord found a 100 rupee note in the gutter. He picked it up. Written on the note was: ""Happy Eid!"" The landlord looked around and, as he put the note back in his pocket, said, ""Thank you for the blessings..","Lexical Choice, Flow, Lack of Cultural Context","Inaccuracy, Lexical Choice, Lack of Cultural Context, Flow",deepseek-r1:latest
+17,"A man was stopped by the police in America.  
+He didn’t speak English, so he used the Apple application to respond.  
+The police thought he was crazy and let him go.  
+His wife was very happy with him.  
+The man said, “This is nothing. I haven’t even taught a crow to order pizza yet.”
+","Incoherency, Inaccuracy","Inaccuracy, Incoherency",deepseek-r1:latest
+19,"Doctor: How are you feeling now?
+Patient: Sir, my fever's broken, but my knee still hurts.
+Doctor: Insha'Allah, that too will break a leg.","Incoherency, Lack of Cultural Context, Inaccuracy","Incoherency, Lack of Cultural Context, Inaccuracy",deepseek-r1:latest
+20,"A man wanted to watch football. He asked the person sitting next to him, ""Why are they hitting the ball so much?"" The other person replied, ""To score a goal."" The man said, ""But the ball is already in the goal.""","Literality Loses Humor, Inaccuracy","Inaccuracy, Literality Loses Humor",deepseek-r1:latest
+22,"Master: (to servant) I told you to feed the rice to the chick. Why are you feeding it to the cat?
+Servant: Sir, the chick is in the cat's belly",Flow [Positive],Flow [Positive],claude-sonnet-4-5
+23,"Customer: Why are you selling this radio at half price? It's brand new, not second-hand!
+Shopkeeper: Well, I'm deaf in one ear — so it's only half useful to me.","Structural Addition, Cultural Context [Positive]","Flow [Positive], Structural Addition",claude-sonnet-4-5
+24," A Sardar found a 100 rupee note on the street. He picked it up. Written on the note was: ""Eid Mubarak!"" The Sardar looked around and while pocketing the note said: ""Same to you!""","Lack of Cultural Context, Lexical Choice","Flow [Positive], Lack of Cultural Context",claude-sonnet-4-5
+25,"A man was stopped by the police in America. He didn't know English, so he recited ""The Boy Who Cried Wolf"" from memory. The police thought he was crazy and let him go. His wife was very happy with him. The man said: ""That's nothing, I haven't even told them 'The Thirsty Crow' yet.""","Cultural Context [Positive], Lexical Choice, Structural Addition","Structural Addition, Lack of Cultural Context, Lexical Choice",claude-sonnet-4-5
+26,"Doctor: How are you feeling now?  
+Patient: Sir, the fever has broken, but the backache remains.
+Doctor: God willing, that’ll break too.","Literality Loses Humor, Cultural Context [Positive]","Literality Loses Humor, Cultural Context [Positive]",claude-sonnet-4-5
+27,"A man went to watch a football match. He asked the person sitting next to him, ""Why do they keep kicking the ball?""
+The man replied, ""To make a goal.""
+The first man said, ""But the ball is already round!""","Literality Loses Humor, Lexical Choice [Positive]","Literality Loses Humor, Lexical Choice [Positive]",claude-sonnet-4-5
+29,"Master: (to the servant) I told you to feed the rice to the chick. Why are you feeding it to the cat?  
+Servant: Sir… the chick’s inside the cat now.","Structural Addition, Flow [Positive]","Structural Addition, Flow",gpt-5.2-2025-12-11
+30,"Customer: Why are you selling the radio for half price? It’s brand new—not second-hand.  
+Shopkeeper: Because I’m deaf in one ear.",Literality Loses Humor,Literality Loses Humor,gpt-5.2-2025-12-11
+31,"A Sikh guy found a 100-rupee note in the street and picked it up. Written on it was: “Eid Mubarak!”  
+He looked around, slipped it into his pocket, and said, “Yes… Eid Mubarak to you too!”","Cultural Context [Positive], Lack of Cultural Context, Flow","Lack of Cultural Context, Cultural Context [Positive], Flow",gpt-5.2-2025-12-11
+32,"A cop stopped a man in America. The man didn’t know any English, so he opened a live translation app and recited what it said out loud. The cop figured he was crazy and let him go.  
+His wife was thrilled. The man said, “That’s nothing—wait till you hear me do ‘The Thirsty Crow’ in English!”","Flow [Positive], Lack of Cultural Context, Inaccuracy, Structural Addition","Flow [Positive], Lack of Cultural Context, Inaccuracy",gpt-5.2-2025-12-11
+33,"Doctor: How are you feeling now?  
+Patient: Sir, the fever’s broken—but the backache is still there.  
+Doctor: God willing, that’ll break too.","Flow [Positive], Literality Loses Humor, Cultural Context [Positive]","Flow [Positive], Literality Loses Humor, Cultural Context [Positive]",gpt-5.2-2025-12-11
+34,"A man went to watch a football match. He asked the guy sitting next to him, “Why’s everyone kicking the ball around?”  
+The other guy said, “To score a goal.”  
+The man frowned, “But the ball’s already round!""","Flow [Positive], Literality Loses Humor","Flow [Positive], Literality Loses Humor",gpt-5.2-2025-12-11
+36,"Owner: (To the servant) I told you to feed the rice to the chick! Why are you giving it to the cat?
+Servant: Sir, the chick is in the cat's stomach.",Lexical Choice,Lexical Choice,gemini2.5-flash
+37,"Customer: Half price for this radio? But it's brand new, not second-hand!
+Shopkeeper: I'm deaf in one ear.","Flow, Literality Loses Humor","Literality Loses Humor, Flow",gemini2.5-flash
+38,"A Sardar found a hundred-rupee note on the street. He picked it up. On the note was written: ""Eid Mubarak!"" The Sardar looked around, then slipped the note into his pocket and said: ""Yes, same to you!""","Lexical Choice, Lack of Cultural Context","Lexical Choice, Lack of Cultural Context",gemini2.5-flash
+39," A man was stopped by the police in America. He didn't know English, so he read out a leave application. The police thought he was crazy and let him go. His wife was very happy with him. ""That's nothing,"" the man boasted, ""I haven't even recited 'The Tortoise and the Hare' yet!""","Cultural Context [Positive], Structural Addition","Lack of Cultural Context, Cultural Context [Positive], Structural Addition",gemini2.5-flash
+40,"Doctor: How are you feeling now?
+Patient: My fever has broken, sir, but the back pain is still there.
+Doctor: God willing, that will break too.","Cultural Context [Positive], Flow [Positive], Literality Loses Humor","Cultural Context [Positive], Flow [Positive], Literality Loses Humor",gemini2.5-flash
+41,"A man went to watch football. He asked the man next to him: ""Why are they all kicking the ball?""
+The other replied: ""To make a point!""
+The man said: ""But the ball doesn't have any points, it's perfectly round!""",Structural Addition,Structural Addition,gemini2.5-flash
+42,": دو ڈاکو ایک گھر میں چوری کر رہے تھے۔ ایک نے کہا، ""کوئی دروازے سے آ رہا ہے! جلدی کر، دریچہ سے نکل جاؤ!"" دوسرے نے کہا، ""آپ اپنی آنکھوں سے نظر ہی نہیں رکھ رہے ہیں؟ ہم تُسَرَ کی منزل پر ہیں!"" اور پہلے نے کہا، ""اب ہمیہ نہیں ہے!""","Incoherency, Lack of Cultural context","Incoherency, Lexical Choice, Lack of Cultural context",qwen3:8b
+43,میں نے اپنے ڈاکٹر سے کہا کہ میں نے اپنی ہاتھ کی ہڈی کو دو جگہ ٹوٹ گئی۔ وہ نے کہا کہ اس جگہ سے چھوڑ دو۔,Grammatical Errors,"Grammatical Errors, Flow",qwen3:8b
+44,میں نے گمبیٹ کے ٹرینر سے پوچھا کہ کیا مجھے سplits کرنا سکتا ہے۔ وہ کہا، 'آپ کتنی مہارت رکھتے ہیں؟' میں کہا، 'میں کلاس میں تuesday کے دن نہیں ہو سکتا۔',"Grammatical Errors, Inaccuracy, Language, Incoherency","Grammatical Errors, Inaccuracy, Incoherency, Language",qwen3:8b
+45,میرا پِتَا مجھے کہنے لگا کہ 30 سال پہلے، وہ اپنی زندگی کی محبت کے ساتھ پیش کر دیا۔ لیکن وہ نے جواب میں نہیں کہا، تو وہ میری ماں کے ساتھ ٹکر گیا۔,"Language, Respect, Grammatical Errors","Language, Respect, Grammatical Errors, Lexical Choice",qwen3:8b
+46, اگر زندگی میں دو چیزیں سیکھی ہیں تو وہ یہ ہے کہ میں شمار کرنا بہت خراب کرتا ہے۔,"Incoherency, Grammatical Errors","Incoherency, Grammatical Errors",qwen3:8b
+47,میرے دادا ہمیشہ کہتے رہے کہ جب ایک دروازہ بند ہو جائے، دوسرے کھل جاتا ہے۔ ذہین آدمی لیکن ایک خراب درابوں بنانے والا۔,"Grammatical Errors, Respect, Incoherency","Grammatical Errors, Respect, Incoherency",qwen3:8b
+48,"دو بُروڈرز ایک-flat میں چور کر رہے تھے۔ ایک نے کہا، ""کوئی شخص دروازہ سے آنے والا ہے! پتہ لگاؤ دروازے کی طرف!"" اور دوسرا گروپ کہنے لگا، ""آپ بھدوش ہو گئے ہیں؟ ہم تیرہویں منزل پر ہیں!"" پہلا گروپ نے کہا، ""یہ وقت سوچنا نہیں ہونا چاہیے کہ ایک بُرائی والا کیا کرتا ہے!""","Incoherency, Grammatical Errors, Lack of Cultural context","Inaccuracy, Incoherency, Grammatical Errors, Lack of Cultural context",llama3.1:latest
+49,میں اپنے ڈاکٹر سے کہا کہ میں نے اپنا ہاتھ دو جگہ ٹوٹ گیا ہے۔ وہ مجھے کہا کہ اس جگہ کی سفر کو روک دؤ۔,"Grammatical Errors, Lexical Choice","Grammatical Errors, Lexical Choice",llama3.1:latest
+50,"میری کوئی ہمخیلت دوست نے مجھ سے کیا کریں اگر میرے بچوں کی تربیت دی جائے؟ میں نے کہا ""میں تو پانچ دن سے کام پر ہوں","Incoherency, Inaccuracy","Incoherency, Inaccuracy",llama3.1:latest
+51,ماں نے مجھے کہا تھا کہ تین دہائیوں پہلے، اس نے اپنی زندگی کی محبت کا پیغام پیش کیا تھا، لیکن وہ انکار کر دی، تو وہ میرے والدہ سے stuck ہوگئے۔,"Inaccuracy, Grammatical Errors, Language","Inaccuracy, Grammatical Errors, Language",llama3.1:latest
+52,"Main jeevan mein kuch hee cheezein seekh chuke hoon, aur voh yeh hai ke main ghaib hai gaayab karne mein.","Incoherency, Language, Lexical Choice","Incoherency, Language",llama3.1:latest
+53,مرحوم نانا ہمیشہ کہتے تھے جب ایک دروازہ بند ہوتا ہے تو دوسرا کھلتا ہے۔ وہ بڑا ہوشیار شخص تھا لیکن بدترین کابینہ بنانے والا۔,"Respect, Lexical Choice, Flow, Lack of Cultural context","Lexical Choice, Respect, Lack of Cultural context",llama3.1:latest
+54,"دو قاتلوں کا ایک اور سلسلہ:
+ایک نے کہا: ""بھائی! دروازے میں کوئی آ رہا ہے! تیزی سے اپنی جان بچاؤ، سکڑ گزر جائیں!"" دوسرے نے کہا: ""آپ کون ہیں؟ ہم چہاردرجے پر ہیں!"" پہلا نے کہا: ""بھائی، اس موقعے پر خوشبختی سے بھرپور ہونا","Incoherency, Grammatical Errors, Lack of Cultural context","Incoherency, Grammatical Errors, Lack of Cultural context",deepseek-r1:latest
+55,میں نے اپنے ڈاکٹر کو بتایا کہ میرے ہاتھ کو دو جگہوں میں توڑ گیا ہے۔ وہ مجھے کہا کہ اگر آپ ان جگہوں سے رخصت نہ ہو جائیں تو چلے۔,"Grammatical Errors, Lexical Choice, Incoherency","Grammatical Errors, Lexical Choice, Incoherency",deepseek-r1:latest
+56,میں نے گمنامہ کا سوال پوچھا۔ وہ نے کہا، “آپ کی مانندت یا تو کیسا ہے؟” میں نے کہا، “منشیوت پر دو دنوں نہیں کر پاؤں گا。”,"Incoherency, Grammatical Errors","Grammatical Errors, Incoherency",deepseek-r1:latest
+57,"میرے پھرینڈ نے بتایا کہ تین سو سال پہلے، وہ اپنی زندگی کی محبت میں پیشانی کھڑی کر لی۔ لیکن وہ بولی، ""نہیں۔"" تب وہ میری ماں کے ساتھ چلے گئے۔","Incoherency, Inaccuracy","Incoherency, Grammatical Errors, Inaccuracy",deepseek-r1:latest
+58,اگر میرے جیون میں اربع اشیاء سیکھیں تو میرا گیارہوی حصہ چوتھی نہیں لکھ پایا۔,"Incoherency, Language","Incoherency, Language",deepseek-r1:latest
+59,میرے پیارے دادا کہتے تھے کہ جب ایک دروازہ بند ہوتا ہے تو دوسرے کھل جاتے ہیں۔ مہارت مند آدمی لیکن ایک اچھے خانہ‌بندی کے ماہر نہیں تھے۔,"Incoherency, Grammatical Errors, Lack of Cultural context","Incoherency, Grammatical Errors",deepseek-r1:latest
+60,"دو چور ایک اپارٹمنٹ میں چوری کر رہے تھے۔ ایک نے کہا، ""کوئی دروازے سے آ رہا ہے! جلدی، کھڑکی سے کود جاؤ!"" دوسرے نے کہا، ""کیا تمہارا دماغ خراب ہو گیا ہے؟ ہم تیرہویں منزل پر ہیں!"" پہلے نے کہا، ""یہ بدشگونی ماننے کا وقت نہیں ہے!""","Lexical Choice, Lack of Cultural context","Lexical Choice, Flow",claude-sonnet-4-5
+61,میں نے اپنے ڈاکٹر کو بتایا کہ میری بانہ دو جگہوں پر ٹوٹ گئی۔ اس نے کہا ان جگہوں پر جانا چھوڑ دو۔,"Lexical Choice, Grammatical Errors","Lexical Choice, Grammatical Errors",claude-sonnet-4-5
+62," میں نے جم کے ٹرینر سے پوچھا کہ کیا آپ مجھے سپلٹس سکھا سکتے ہیں؟ اس نے کہا، ""آپ کتنے فلیکسیبل ہیں؟"" میں نے کہا، ""بس منگل کو نہیں آ سکتا۔""",Language,Language,claude-sonnet-4-5
+63,میرے والد نے مجھے بتایا کہ تیس سال پہلے انہوں نے اپنی زندگی کی محبت کو شادی کی پیشکش کی تھی۔ لیکن اس نے انکار کر دیا، تو پھر وہ میری امی کے ساتھ پھنس گئے۔,Lexical Choice,Lexical Choice,claude-sonnet-4-5
+64,اگر زندگی میں مجھے تین چیزیں سیکھنے کو ملی ہیں تو وہ یہ ہے کہ مجھے گنتی بالکل نہیں آتی۔,"Inaccuracy, Flow [Positive], Grammatical Errors","Grammatical Errors, Inaccuracy",claude-sonnet-4-5
+65, میرے دادا ہمیشہ کہتے تھے کہ جب ایک دروازہ بند ہوتا ہے تو دوسرا کھل جاتا ہے۔ بڑے سمجھدار آدمی تھے، لیکن الماری بنانے میں بالکل پھسڈی۔ ,"Lexical Choice, Flow [Positive], Inaccuracy, Respect, Lack of Cultural context","Lexical Choice, Inaccuracy, Flow [Positive], Lack of Cultural context",claude-sonnet-4-5
+66,"دو چور ایک فلیٹ میں ڈکیتی کر رہے تھے۔ ایک نے کہا، ""کوئی دروازے سے اندر آ رہا ہے! جلدی، کھڑکی سے کود جاؤ!""  
+دوسرا بولا، ""پاگل ہو گئے ہو؟ ہم تیرھویں منزل پر ہیں!""  
+پہلا بولا، ""یہ نحوست کا وقت نہیں ہے",Lexical Choice,"Lexical Choice, Lack of Cultural context",gpt-5.2-2025-12-11
+67,میں نے اپنے ڈاکٹر سے کہا کہ میرا بازو دو جگہوں سے ٹوٹ گیا ہے۔ ڈاکٹر نے کہا: تو پھر اُن جگہوں پر جانا چھوڑ دو۔,Flow,"Literality Lose Humour, Flow",gpt-5.2-2025-12-11
+68,"میں نے جم کے انسٹرکٹر سے پوچھا، “کیا آپ مجھے سپلِٹس کرنا سکھا سکتے ہیں؟”  
+وہ بولا، “آپ کتنے لچکدار ہیں؟”  
+میں نے کہا، “منگل کو تو میں بالکل نہیں مڑ سکتا!”",Literality Lose Humour,Literality Lose Humour,gpt-5.2-2025-12-11
+69,میرے ابو بتا رہے تھے کہ آج سے تیس سال پہلے انہوں نے اپنی زندگی کی محبت کو شادی کے لیے کہا تھا۔ مگر اس نے انکار کر دیا… تو پھر ابو کو میری امی کے ساتھ ہی گزارا کرنا پڑا۔,"Lexical Choice [Positive[, Flow [Positive]","Lexical Choice [Positive[, Flow [Positive]",gpt-5.2-2025-12-11
+70,زندگی میں اگر میں نے دو باتیں سیکھی ہیں تو وہ یہی ہیں کہ… مجھے گنتی بالکل نہیں آتی۔,Flow,Flow,gpt-5.2-2025-12-11
+71,"میرے دادا ہمیشہ کہا کرتے تھے کہ جب ایک دروازہ بند ہوتا ہے تو دوسرا کھل جاتا ہے۔ عقل کے بڑے پکے تھے، بس بڑھئی کے کام میں بڑے ہی نکمّے نکلے۔
+","Inaccuracy, Flow, Lack of Cultural context","Inaccuracy, Flow, Lack of Cultural context",gpt-5.2-2025-12-11
+72,": دو چور ایک اپارٹمنٹ میں چوری کر رہے تھے۔ ایک نے کہا، ""کوئی اندر آ رہا ہے! جلدی کرو، کھڑکی سے کود جاؤ!""
+دوسرے نے کہا، ""تم پاگل ہو گئے ہو کیا؟ ہم تیرہویں منزل پر ہیں!""
+پہلے والے نے کہا، ""یہ توہم پرستی کا وقت نہیں ہے!""","Lexical Choice [Positive[, Flow, Lack of Cultural context","Lexical Choice [Positive[, Flow, Lack of Cultural context",gemini2.5-flash
+73, میں نے ڈاکٹر کو بتایا کہ میرا بازو دو جگہوں پر ٹوٹ گیا۔ اس نے کہا کہ ان جگہوں پر جانا چھوڑ دو,Literality Lose Humour,Literality Lose Humour,gemini2.5-flash
+74,"میں نے جم انسٹرکٹر سے پوچھا کہ کیا وہ مجھے اسپلٹس کرنا سکھا سکتا ہے۔
+اس نے پوچھا، ""آپ کتنے لچکدار ہیں؟""
+میں نے جواب دیا، ""میں منگل کو نہیں آ سکتا۔""",Literality Lose Humour,Literality Lose Humour,gemini2.5-flash
+75,میرے والد صاحب نے مجھے بتایا کہ تیس سال پہلے انہوں نے اپنی زندگی کے پیار کو شادی کے لیے پرپوز کیا۔ لیکن اس نے انکار کر دیا، تو پھر میری امی ان کے گلے پڑ گئیں۔,"Language, Lexical Choice","Language, Lexical Choice",gemini2.5-flash
+76,زندگی میں بس دو ہی باتیں سیکھی ہیں، اور وہ یہ ہیں کہ مجھے گنتی بالکل نہیں آتی۔,Flow [Positive],Flow [Positive],gemini2.5-flash
+77,میرے دادا ہمیشہ کہتے تھے کہ جب ایک دروازہ بند ہوتا ہے، تو دوسرا کھل جاتا ہے۔ عقلمند آدمی تھے، مگر کابینہ ساز انتہائی برے!,"Lexical Choice, Flow, Inaccuracy, Lack of Cultural context","Lexical Choice, Flow, Inaccuracy",gemini2.5-flash
